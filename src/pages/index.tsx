@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Browse from "./browse";
 
 export default function Home() {
   return (
@@ -51,7 +50,6 @@ export default function Home() {
           />
         </div>
       </div>
-      <Browse />
 
       {/* <footer>
         <a
